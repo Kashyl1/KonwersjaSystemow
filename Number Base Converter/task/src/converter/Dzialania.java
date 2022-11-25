@@ -28,8 +28,8 @@ public class Dzialania {
                             System.out.println("Wynik konwersji: 0");
                         }
                         else { // Jezeli liczba przecinkowa to
-                            if (liczba.contains(".")) {
-                                String[] oddzielaj = liczba.split("\\.");
+                            if (liczba.contains(",")) {
+                                String[] oddzielaj = liczba.split(",");
                                 String pelne = oddzielaj[0];
                                 String przecinkowe = oddzielaj[1];
                                 int system = Integer.parseInt(systemDocelowy);
